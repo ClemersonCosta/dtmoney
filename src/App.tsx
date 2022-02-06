@@ -1,7 +1,13 @@
+import { Dashboard } from './components/Dashboard';
+import { GlobalStyle } from './styles/global';
+import { Header } from './components/Header';
+
 export function App() {
   return (
-    <div className="App">
-      <h1>Hello World: ReactJS</h1>
-    </div>
+    <>
+      <Header />
+      <Dashboard />
+      <GlobalStyle />
+    </>
   );
 }
